@@ -1,7 +1,7 @@
 {
   "name": "去除知乎的标题",
   "version": "1.0",
-  "description": "Build an Extension!",
+  "description": "去除zhihu.com 的title",
   "permissions": ["activeTab", "declarativeContent", "storage","tabs"],
   "options_page": "options.html",
   "background": {
@@ -27,7 +27,7 @@
   "manifest_version": 2,
    "content_scripts": [
         {
-            "matches": ["*://www.zhihu.com/*"],//改成你要加载的页面url,比如*://www.baidu.com/
+            "matches": ["*://www.zhihu.com/*"],
             "js": ["my.js"]
         }
     ]
