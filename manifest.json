@@ -3,6 +3,7 @@
   "version": "1.0",
   "description": "去除zhihu.com 的title",
   "permissions": ["activeTab", "declarativeContent", "storage","tabs"],
+  "omnibox": { "keyword" : "zh" },
   "options_page": "options.html",
   "background": {
     "scripts": ["background.js"],
