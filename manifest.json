@@ -28,7 +28,8 @@
   "manifest_version": 2,
    "content_scripts": [
         {
-            "matches": ["*://www.zhihu.com/*"],
+            // "matches": ["*://www.zhihu.com/*"],
+            "matches": ["<all_urls>"],//去除所有地址图片
             "js": ["my.js"]
         }
     ]
